@@ -17,4 +17,4 @@ jobs:
 
       # Step 2: Run a simple terminal command
       - name: Say Hello
-        run: echo "The code cloned successfully. Ready to run!"
+        run: echo "The Node Backend Code has cloned successfully. Ready to run!"
