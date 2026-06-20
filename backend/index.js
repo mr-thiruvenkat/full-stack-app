@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Base Route
 app.get('/api', (req, res) => {
-  res.json({ message: 'Welcome rf MyFll-Stack Project!' });
+  res.json({ message: 'Welcome to My Full-Stack Project!' });
 });
 
 // A sample API route
