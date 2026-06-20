@@ -16,6 +16,10 @@ app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'healthy', timestamp: new Date() });
 });
 
+app.get('/api/status', (req, res) => {
+  res.status(200).json({ status: 'running', timestamp: new Date() });
+});
+
 // Start the server
 app.listen(PORT, () =>{
   console.log(`🚀 Server running smoothly on http://localhost:${PORT}`);
