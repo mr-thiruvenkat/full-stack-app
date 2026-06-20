@@ -1,2 +1,7 @@
-# full-stack-project
-#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
+## My FullStack Project
+
+## Frontend
+
+* React.js
+* Typescript
+* Vite
