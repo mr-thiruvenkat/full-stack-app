@@ -1,4 +1,4 @@
-name: "Backend Project" 
+name: "Node Backend Project" 
 on:
   push:
     branches: [ main ]
@@ -11,5 +11,10 @@ jobs:
       run:
         working-directory: ./backend
     steps:
-      - name: Install Dependencies
-     run: npm install
+      # Step 1: Clone your repository's code onto the virtual machine
+      - name: Check out repository code
+        uses: actions/checkout@v4
+
+      # Step 2: Run a simple terminal command
+      - name: Say Hello
+        run: echo "The code cloned successfully. Ready to run!"
