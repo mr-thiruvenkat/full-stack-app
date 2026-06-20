@@ -1,0 +1,15 @@
+name: "Backend Project" 
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'backend/**'
+jobs:
+  build:
+    runs-on: ubuntu-latest    
+    defaults:
+      run:
+        working-directory: ./backend
+    steps:
+      - name: Install Dependencies
+     run: npm install
