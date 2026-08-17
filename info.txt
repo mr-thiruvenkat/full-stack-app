@@ -1,3 +1,0 @@
-Clone_Token: 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
-Username: mr-thiruvenkat
-Clone_Url: https://github.com/mr-thiruvenkat/full-stack-project.git
